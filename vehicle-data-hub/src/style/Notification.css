@@ -1,0 +1,44 @@
+.notification-popup {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    width: 250px;
+    background: white;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    z-index: 1000;
+  }
+  
+  .notification-popup h3 {
+    margin-top: 0;
+    color: #000;
+  }
+  
+  .notification-popup ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .notification-popup li {
+    margin-bottom: 5px;
+    color: #000;
+
+  }
+  
+  .notification-popup .close-btn {
+    background-color: transparent;
+    border: none;
+    font-size: 18px; 
+    color: #333;
+    cursor: pointer;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+  }
+  
+  .notification-popup .close-btn:hover {
+    color: #ff0000;
+  }
+  

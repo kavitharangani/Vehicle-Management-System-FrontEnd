@@ -1,0 +1,50 @@
+th, td {
+  padding: 12px;
+  text-align: left;
+}
+
+/* Common button styling */
+button {
+  border: none;
+  color: rgb(23, 23, 23);
+  padding: 8px 16px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  margin: 2px 1px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Update button styling */
+button.update-btn {
+  background-color: #008CBA;
+}
+
+button.update-btn:hover {
+  background-color: #007B9E; 
+}
+
+/* Delete button styling */
+button.delete-btn {
+  background-color: #f44336; 
+}
+
+button.delete-btn:hover {
+  background-color: #d32f2f; 
+}
+
+/* icon design */
+
+.icon {
+  margin-left: 10px;
+  color: #007bff;
+  font-size: 35px;
+}
+
+.notification-icon {
+  color: #f02a07;
+}
+
+
